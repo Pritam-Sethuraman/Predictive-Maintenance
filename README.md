@@ -26,8 +26,6 @@ This project is for industrial application of IoT
 - MQTT
 - Node-RED
 
-[Back To The Top](#predictive-maintenance)
-
 ---
 
 ## How To Use
@@ -59,7 +57,6 @@ node --version && npm --version
 npm install -g --unsafe-perm node-red
 node-red
 ```
-[Back To The Top](#predictive-maintenancet)
 
 ---
 
@@ -67,9 +64,6 @@ node-red
 
 - Reference 1
 - Reference 2
-
-
-[Back To The Top](#predictive-maintenance)
 
 ---
 
@@ -95,8 +89,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-[Back To The Top](#predictive-maintenance)
 
 ---
 
