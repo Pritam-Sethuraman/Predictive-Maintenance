@@ -1,7 +1,7 @@
 # Predictive-Maintenance
-
+<!--
 ![Project Image](project-image-url)
-
+-->
 ---
 
 ## Table of Contents
