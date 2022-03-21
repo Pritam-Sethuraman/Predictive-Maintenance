@@ -1,9 +1,9 @@
 # Predictive-Maintenance
 <!--
 ![Project Image](project-image-url)
--->
----
 
+---
+-->
 ## Table of Contents
 - [Description](#description)
 - [How To Use](#how-to-use)
