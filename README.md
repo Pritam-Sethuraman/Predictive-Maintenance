@@ -60,8 +60,10 @@ node-red
 
 ## References
 
-- Reference 1
-- Reference 2
+- Analysis and Control of The Motor Vibration using Arduino and Machine Learning Model by S. Krishnaveni, S. Senthil Raja, T. Jayasankar and P. Sathish Babu
+- Machine Learning approach for Predictive Maintenance in Industry 4.0 by Marina Paolanti, Luca Romeo Andrea Felicetti, Jelena Loncarski, et. al.
+- Machine Learning Approaches for Failure Type Detection and Predictive Maintenance by Patrick Jahnke
+- Machine Learning for Predictive Maintenance: A Multiple Classifier Approach by Gian Antonio Susto, Andrea Schirru, Simone Pampuri, Se´an McLoone and Alessandro Beghi
 
 ---
 
