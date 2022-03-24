@@ -28,7 +28,7 @@ This project is for industrial application of IoT
 ## How To Use
 
 ### EMQX MQTT Broker
-1. Download zip from !here[https://www.emqx.com/en/downloads/broker?osType=Linux]
+1. Download zip from [here](https://www.emqx.com/en/downloads/broker?osType=Linux)
 2. Unzip the file
 ```html
 unzip emqx-4.4.1-otp23.0-windows-amd64.zip
