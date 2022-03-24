@@ -1,9 +1,8 @@
 # Predictive-Maintenance
-<!--
-![Project Image](project-image-url)
+![Project Image(https://user-images.githubusercontent.com/78743757/159900955-f841a3eb-0251-4b59-b878-6404766bed7d.png)
 
 ---
--->
+
 ## Table of Contents
 - [Description](#description)
 - [How To Use](#how-to-use)
