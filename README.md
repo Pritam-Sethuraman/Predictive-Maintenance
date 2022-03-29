@@ -66,6 +66,16 @@ node-red
 
 ---
 
+## Created & Maintained By
+
+[Pritam Sethuraman](https://github.com/pritam-sethuraman)
+
+> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+>
+> - [PayPal](https://paypal.me/pritam2500/)
+
+---
+
 ## License
 MIT License
 
@@ -90,9 +100,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-
-## Author Info
-
-- LinkedIn - [@pritamsethuraman](https://www.linkedin.com/in/pritam-sethuraman/)
 
 [Back To The Top](#predictive-maintenance)
