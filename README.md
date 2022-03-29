@@ -1,5 +1,5 @@
 # Predictive-Maintenance
-![image](https://user-images.githubusercontent.com/78743757/159901044-ea15b8bc-805c-46e2-af75-c35747ccf28a.png)
+![image](https://user-images.githubusercontent.com/78743757/160560114-ac09d3fb-9029-453d-9bff-490442e5de7d.png)
 
 ---
 
