@@ -1,0 +1,168 @@
+[
+    {
+        "id": "8df83f7f793abaa7",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5edcb0bf80875358",
+        "type": "mqtt in",
+        "z": "8df83f7f793abaa7",
+        "name": "",
+        "topic": "esp32/test",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "823c39095aa4ca8b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "6cbdcff1dbf8c2e1"
+            ]
+        ]
+    },
+    {
+        "id": "6cbdcff1dbf8c2e1",
+        "type": "json",
+        "z": "8df83f7f793abaa7",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 250,
+        "y": 100,
+        "wires": [
+            [
+                "d368cdfb0731f87d",
+                "079e1d2dbd0d555e"
+            ]
+        ]
+    },
+    {
+        "id": "b842a2d08a8f6dc3",
+        "type": "file",
+        "z": "8df83f7f793abaa7",
+        "name": "Vibration Data",
+        "filename": "D:\\Work Stuff\\Internship Stuff\\UniConverge Technologies\\Master\\Vibration_Data.csv",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 720,
+        "y": 220,
+        "wires": [
+            [
+                "f505293e8b2675e5"
+            ]
+        ]
+    },
+    {
+        "id": "f505293e8b2675e5",
+        "type": "debug",
+        "z": "8df83f7f793abaa7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "079e1d2dbd0d555e",
+        "type": "debug",
+        "z": "8df83f7f793abaa7",
+        "name": "Sensor Data",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d368cdfb0731f87d",
+        "type": "function",
+        "z": "8df83f7f793abaa7",
+        "name": "",
+        "func": "xAccl = msg.payload.X_Accl;\nyAccl = msg.payload.Y_Accl;\nzAccl = msg.payload.Z_Accl;\n\nxGyro = msg.payload.X_Gyro;\nyGyro = msg.payload.Y_Gyro;\nzGyro = msg.payload.Z_Gyro;\n\ntemp = msg.payload.Temperature;\n\nmsg.payload = [xAccl, yAccl, zAccl, xGyro, yGyro, zGyro, temp];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 140,
+        "wires": [
+            [
+                "22e5406e411a22af"
+            ]
+        ]
+    },
+    {
+        "id": "22e5406e411a22af",
+        "type": "csv",
+        "z": "8df83f7f793abaa7",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "once",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 550,
+        "y": 180,
+        "wires": [
+            [
+                "b842a2d08a8f6dc3"
+            ]
+        ]
+    },
+    {
+        "id": "823c39095aa4ca8b",
+        "type": "mqtt-broker",
+        "name": "Localhost",
+        "broker": "192.168.18.80",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "Test31415",
+        "birthQos": "0",
+        "birthPayload": "Connected!!!",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    }
+]
