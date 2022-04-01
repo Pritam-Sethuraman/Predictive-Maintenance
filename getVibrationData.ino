@@ -197,5 +197,5 @@ void loop() {
   //Serial.println("-------------------------------------------");
   
   client.loop();
-  delay(5000);
+  delay(100);
 }
