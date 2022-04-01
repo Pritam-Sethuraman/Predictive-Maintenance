@@ -14,7 +14,7 @@ const char *ssid = "SSID_XXXX"; // Enter your WiFi name
 const char *password = "PASSWORD_XXXX";  // Enter WiFi password
 
 // MQTT Broker Details
-const char *mqtt_broker = "192.168.18.80";
+const char *mqtt_broker = "broker.emqx.io";
 const char *topic = "esp32/test";
 const char *mqtt_username = "emqx";
 const char *mqtt_password = "public";
