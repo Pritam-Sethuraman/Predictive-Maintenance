@@ -16,6 +16,7 @@
 ## Description
 
 This project is for industrial application of IoT. The vibration and temperature data is acquired by the MPU6050 sensor and is transmitted through MQTT protocol using ESP32 and EMQX.
+Dataset used is 6-Index- Turbofan Engine Degradation Simulation Data Set.
 
 #### Components & Technologies
 
