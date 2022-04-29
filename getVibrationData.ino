@@ -144,7 +144,6 @@ void callback(char *topic, byte *payload, unsigned int length) {
     Serial.print((char) payload[i]);
   }
   Serial.println();
-  Serial.println("=================================================================================================================================");
 }
 
 // Loop Function
